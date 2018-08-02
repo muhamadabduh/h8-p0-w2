@@ -1,0 +1,46 @@
+1. Newton Second Law
+
+	STORE "mass" with 600
+	STORE "acceleration" with 2
+	STORE "net force" without any value
+
+	CALCULATE "mass" times "acceleration"
+	SET "net force" value with calculation result
+
+	DISPLAY "net force"
+
+2. Tahun Kabisat (leap year)
+	
+	A. STORE "year" with any value
+	B. IF "year" modulo 4 equals zero
+		DO step C
+	   ELSE 
+		DISPLAY "not a leap year"
+	C. IF "year" modulo 100 equals zero
+		DO step D
+	   ELSE 
+		DISPLAY "the year is a leap year"
+	D. IF "year" modulo 400 equals zero 
+		DISPLAY "the year is a leap year"
+	   ELSE 
+		DISPLAY "not a leap year" 
+
+3. Laundry Day
+
+	A. STORE "cucian" with 0
+	B. WHILE "cucian" < 20
+		ADD "cucian" by 1
+	C. DO "start the Washing Machine!"
+
+4. Periksa Kuku
+	
+	A. STORE "antrianMurid" with 0
+	B. WHILE "antrianMurid" < 40
+		IF "kuku" is "panjang"
+			DO "punishment"
+		ELSE
+			DO "praise"
+		ADD "antrianMurid" by 1
+	
+	
+	
