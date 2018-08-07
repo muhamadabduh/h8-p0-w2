@@ -1,5 +1,5 @@
 var nama = 'Andi';
-var peran = 'ksatria';
+var peran = '';
 
 if (nama == '' && peran == '') {
 	console.log('Nama harus diisi!');

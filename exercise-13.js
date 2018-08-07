@@ -1,21 +1,26 @@
 function xo(str) {
     var panjangXo = str.length;
     var i = 0;
+    var banyakX = 0;
+    var banyakO = 0;
     while (i<panjangXo){
-        var banyakX = 0;
 
         if(str[i] === 'x'){
             banyakX += 1;
-        } 
-        
-        return banyakX;
+            
+        } else {
+            banyakO += 1;
+        }
+        i++
     }
     
-    if(banyakX == panjangXo/2){
+   
+    if(banyakX == banyakO){
         return true;
     } else {
         return false;
     }
+    
   }
   
   // TEST CASES
@@ -24,3 +29,4 @@ function xo(str) {
   console.log(xo('oxo')); // false
   console.log(xo('xxxooo')); // true
   console.log(xo('xoxooxxo')); // true
+//   console.log(typeof 0);
