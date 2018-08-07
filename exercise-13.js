@@ -8,7 +8,7 @@ function xo(str) {
         if(str[i] === 'x'){
             banyakX += 1;
             
-        } else {
+        } else if(str[i] === 'o') {
             banyakO += 1;
         }
         i++
